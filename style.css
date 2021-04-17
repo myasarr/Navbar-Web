@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.header{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #d4d7de;
+    width: 100%;
+    height: 70px;
+    z-index: 1;
+}
+.nav{
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    margin-right: 15%;
+   
+}
+.logo{
+   
+    margin-right: 50%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-family: 35px;
+}
+a{
+  
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+a:hover{
+    color:#000;
+}
+.banner-area{
+    position: relative;
+    background-image: url(f1.jpg);
+    width: 100%;
+    height: 100vh;
+    -webkit-background-size:cover ;
+    background-size: cover;
+}
+.about-area, .port-area, .services-area{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: 700px;
+}
+.textpart{
+    width: 65%;
+    height: 80%;
+}
+h1{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    font-size: 24px;
+    line-height: 50px;
+}
+.port-area{
+    background:#fefefe;
+}
+.about-area, .services-area{
+background: #000;
+color: #fefefe;
+}
+html{
+    scroll-behavior:smooth;
+}
